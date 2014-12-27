@@ -1,0 +1,53 @@
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relativeLayout"
+        android:layout_width="@dimen/nav_draw_width"
+        android:layout_height="match_parent"
+
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        tools:context="de.conradowatz.mdtest.NavigationDrawerFragment">
+
+        <ImageView
+            android:id="@+id/nav_draw_map"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/ttt_waterworld" />
+
+        <ImageView
+            android:id="@+id/nav_draw_logo"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="25dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="25dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/tttv2_logo" />
+
+        <View
+            android:id="@+id/nav_draw_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="0.3dp"
+            android:layout_below="@id/nav_draw_logo"
+            android:layout_marginBottom="@dimen/nav_draw_divider_margin"
+            android:background="@android:color/darker_gray" />
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nav_draw_recyclerview"
+            android:layout_below="@id/nav_draw_divider">
+
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+    </RelativeLayout>
+

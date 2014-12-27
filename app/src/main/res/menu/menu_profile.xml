@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="de.conradowatz.tttv2server.ProfileActivity">
+    <item
+        android:id="@+id/action_edit_profile"
+        android:title="@string/action_title_edit_profile"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_edit"/>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/refresh"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_refresh"/>
+</menu>

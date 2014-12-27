@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="@dimen/fragment_base_padding"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/textView_dm_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/dm_info"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/swipe_refresh_dm"
+        android:layout_alignLeft="@+id/textView_dm_info"
+        android:layout_alignStart="@+id/textView_dm_info"
+        android:layout_below="@+id/textView_dm_info"
+        android:layout_marginTop="16dp">
+
+        <ListView
+            android:id="@+id/listView_dm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="@dimen/progressBar_spinner_width"
+        android:layout_height="@dimen/progressBar_spinner_width"
+        android:id="@+id/progressBar_dm"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

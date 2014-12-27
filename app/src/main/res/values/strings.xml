@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TTTv2 Server</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_closed">Closed</string>
+    <string name="loading_data_text">Lade Daten…</string>
+    <string name="text_infos_map">Map:</string>
+    <string name="text_infos_player">Spieler:</string>
+    <string name="loading_image_text">Lade Bild…</string>
+    <string name="text_mapchange">Der Server antwortet zur Zeit nicht, warscheinlich wird gerade die Map gewechselt.</string>
+    <string name="no_connection_server">Keine Verbindung zum Conradowatz Server :C</string>
+    <string name="homescreen_welcome">TTTv2 ist ein GarrysMod Server, der auf den Gamemode Trouble in Terrorist Town spezialisiert ist.</string>
+    <string name="homescreen_info1">Name:</string>
+    <string name="homescreen_info2">IP:</string>
+    <string name="homescreen_info3">12 Slots</string>
+    <string name="homescreen_info12">[Ger] TTTv2 Server (Pointshop | Extra Weapons)</string>
+    <string name="homescreen_info22">85.131.220.122:27015  / tttv2.conradowatz.de:27015</string>
+    <string name="no_connection_text">Keine Internetverbindung :(</string>
+    <string name="playtime_info">Top 10 Spielzeiten in Stunden:</string>
+    <string name="dm_info">Spieler mit den meisten Kills im Deathmatch:</string>
+    <string name="server_empty">Server ist leer</string>
+    <string name="dmstats_noweapons">Keine Waffenstatistiken</string>
+    <string name="new_profile_text">Kein Profil vorhanden. Bitte wähle zuerst deinen Steam-Namen:</string>
+    <string name="new_profile_button">Profil anlegen</string>
+    <string name="searchable_label">TTTv2 Profil</string>
+    <string name="searchable_hint">Steam-Namen suchen</string>
+    <string name="action_title_edit_profile">Profil ändern</string>
+    <string name="searchable_activity_label">Steam Profil suchen</string>
+    <string name="text_profile_tmp">Hier kannst du das Spieler Profil von jedem Spieler des Servers ansehen. Klicke dazu auf die Lupe in der Toolbar!</string>
+    <string name="text_menu_tmpprofile">Profil suchen</string>
+    <string name="title_activity_profile">Profil Informationen</string>
+    <string name="text_profile_search_noresults">Die Suche nach \'%%name%%\' lieferte keine Treffer!</string>
+    <string name="error_no_profile_found">Kein Profil vorhanden!</string>
+    <string name="playtime">"Spielzeit: "</string>
+    <string name="ps_points">"PS Punkte: "</string>
+    <string name="kills">"Kills: "</string>
+    <string name="deaths">"Tode: "</string>
+    <string name="best_killstreak">"Beste Kilstreak: "</string>
+    <string name="time_dm">"Zeit im Deathmatch: "</string>
+    <string name="new_version_title">Neue Version</string>
+    <string name="new_version_text">Eine neue Version der TTv2 App ist verfügbar! Jetzt aktualisieren?</string>
+    <string name="yes">Ja!</string>
+    <string name="no_later">Nein, später</string>
+    <string name="search_profile_title">Profil suchen</string>
+    <string name="search_profile_text">Gib einen Steam Profil-Namen ein!</string>
+    <string name="search">Suchen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="updater_title">TTTv2 Updater</string>
+    <string name="updater_text">Neuste Version wird heruntergeladen...</string>
+    <string name="refresh">Neu laden</string>
+
+    <string-array name="nav_drawer_names">
+        <item>Homescreen</item>
+        <item>Serverinfos</item>
+        <item>News</item>
+        <item>Regeln</item>
+        <item>Rekorde</item>
+        <item>Spielzeit</item>
+        <item>Deathmatch</item>
+        <item>Profil</item>
+        <item>Mein Profil</item>
+        <item>Spieler suchen...</item>
+    </string-array>
+
+</resources>

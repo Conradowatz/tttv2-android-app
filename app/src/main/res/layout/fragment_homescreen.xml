@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/imageView_infos_map"
+        android:src="@drawable/tttv2_header"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="@dimen/fragment_base_padding">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/homescreen_welcome"
+            android:id="@+id/textView_welcome" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/homescreen_info1"
+            android:id="@+id/textViewinfo1"
+            android:layout_below="@+id/textView_welcome"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="37dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/homescreen_info2"
+            android:id="@+id/textViewinfo2"
+            android:textStyle="bold"
+            android:layout_below="@+id/textViewinfo12"
+            android:layout_alignLeft="@+id/textViewinfo1"
+            android:layout_alignStart="@+id/textViewinfo1"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/homescreen_info3"
+            android:id="@+id/textViewinfo3"
+            android:textStyle="bold"
+            android:layout_below="@+id/textViewinfo22"
+            android:layout_alignLeft="@+id/textViewinfo2"
+            android:layout_alignStart="@+id/textViewinfo2"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/homescreen_info12"
+            android:id="@+id/textViewinfo12"
+            android:layout_toEndOf="@+id/textViewinfo1"
+            android:layout_alignTop="@+id/textViewinfo1"
+            android:layout_toRightOf="@+id/textViewinfo1"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/homescreen_info22"
+            android:id="@+id/textViewinfo22"
+            android:layout_toEndOf="@+id/textViewinfo1"
+            android:layout_alignTop="@+id/textViewinfo2"
+            android:layout_alignLeft="@+id/textViewinfo12"
+            android:layout_alignStart="@+id/textViewinfo12" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:id="@+id/imageViewonline"
+            android:src="@drawable/online"
+            android:layout_below="@+id/textViewinfo3"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_connection_text"
+            android:id="@+id/textView_no_connection"
+            android:layout_alignBottom="@+id/imageViewonline"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_darker">#0D47A1</color>
+    <color name="accent">#FFEB3B</color>
+    <color name="grey">#962e2e2e</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_grey">#5faeaeae</color>
+    <color name="black">#000000</color>
+    <color name="nav_draw_subheader">#6c000000</color>
+    <color name="nav_draw_item">#da000000</color>
+    <color name="cardView_background_dark">#10000000</color>
+
+</resources>

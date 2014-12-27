@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/conrad/AndroidStudioProjects/MDTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/conrad/AndroidStudioProjects/MDTest/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-7341f64eff6e71bf0fff2110974364919d0a474f.jar" />
+    </item>
+    <item
+        jar="/home/conrad/AndroidStudioProjects/MDTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/conrad/AndroidStudioProjects/MDTest/app/build/intermediates/pre-dexed/debug/classes-6989d03361de047262d0b676e48e32fa4fa2e7d0.jar" />
+    </item>
+    <item
+        jar="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/pre-dexed/debug/classes-825b637b609c7b8c38b3ab154d94777562d8c483.jar" />
+    </item>
+    <item
+        jar="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-1f2729dc44e5d3492af159699a6019b77f0cdbff.jar" />
+    </item>
+    <item
+        jar="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/pre-dexed/debug/classes-84c6bfb3b75fd134e7e1a050fe6bc5e5d9fdec7a.jar" />
+    </item>
+    <item
+        jar="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/pre-dexed/debug/classes-85b0e634aad0056dc30422c949cca46c7b13166e.jar" />
+    </item>
+    <item
+        jar="/home/conrad/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/conrad/AndroidStudioProjects/MDTest/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-c38e4e808d7f469bfe9118effbb6296bb6e43af2.jar" />
+    </item>
+    <item
+        jar="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/pre-dexed/debug/classes-0bda3bc2a98b5aef258db1e521476f14a5a350bd.jar" />
+    </item>
+    <item
+        jar="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/exploded-aar/com.github.johnkil.android-robototextview/robototextview/2.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7a79e95d6b7424b7a9671c1383ce0bf9da83cce4">
+        <dex dex="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/pre-dexed/debug/classes-5847619c07645e741e4346db0587ac735079d07e.jar" />
+    </item>
+    <item
+        jar="/home/conrad/AndroidStudioProjects/MDTest/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="/home/conrad/AndroidStudioProjects/MDTest/app/build/intermediates/pre-dexed/debug/classes-473197fb8f396847cd021fac429c7188fded974e.jar" />
+    </item>
+    <item
+        jar="/home/conrad/AndroidStudioProjects/MDTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/conrad/AndroidStudioProjects/MDTest/app/build/intermediates/pre-dexed/debug/classes-e8585ae148ac0e6035a1b28fe9bf7c5e24877261.jar" />
+    </item>
+    <item
+        jar="/home/conrad/AndroidStudioProjects/MDTest/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/home/conrad/AndroidStudioProjects/MDTest/app/build/intermediates/pre-dexed/debug/classes-61fc19bdcf4a2581866c5acf5ac2178380050b2e.jar" />
+    </item>
+
+</items>
