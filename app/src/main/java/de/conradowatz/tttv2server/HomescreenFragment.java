@@ -13,6 +13,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
 public class HomescreenFragment extends Fragment {
 
     private View thisView;
@@ -28,6 +31,16 @@ public class HomescreenFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
+        // Get tracker.
+        Tracker t = ((TTTv2Application) getActivity().getApplication()).getTracker(
+                TTTv2Application.TrackerName.APP_TRACKER);
+
+        // Set screen name.
+        t.setScreenName("Homescreen");
+        // Send a screen view.
+        t.send(new HitBuilders.AppViewBuilder().build());
+
         setHasOptionsMenu(true);
 
         new DownloadImageTask() {

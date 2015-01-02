@@ -14,6 +14,9 @@ import android.webkit.WebView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -56,6 +59,16 @@ public class RulesFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
+        // Get tracker.
+        Tracker t = ((TTTv2Application) getActivity().getApplication()).getTracker(
+                TTTv2Application.TrackerName.APP_TRACKER);
+
+        // Set screen name.
+        t.setScreenName("Regeln");
+        // Send a screen view.
+        t.send(new HitBuilders.AppViewBuilder().build());
+
         setHasOptionsMenu(true);
 
         super.onCreate(savedInstanceState);

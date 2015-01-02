@@ -20,6 +20,9 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -85,6 +88,16 @@ public class InfosFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
+        // Get tracker.
+        Tracker t = ((TTTv2Application) getActivity().getApplication()).getTracker(
+                TTTv2Application.TrackerName.APP_TRACKER);
+
+        // Set screen name.
+        t.setScreenName("Server Infos");
+        // Send a screen view.
+        t.send(new HitBuilders.AppViewBuilder().build());
+
         setHasOptionsMenu(true);
 
         super.onCreate(savedInstanceState);
@@ -217,6 +230,11 @@ public class InfosFragment extends Fragment {
                 @Override
                 public void onPostExecute(Bitmap result) {
                     //Save map file
+
+                    if (result==null) {         //make sure no empty image files will be saved
+                        RefreshImage(result);
+                        return;
+                    }
 
                     FileOutputStream out = null;
                     try {

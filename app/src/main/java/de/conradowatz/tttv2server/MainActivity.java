@@ -26,6 +26,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 
+import com.google.android.gms.analytics.GoogleAnalytics;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -51,7 +53,21 @@ public class MainActivity extends ActionBarActivity {
     private long lastDownload = -1L;
 
     @Override
+    protected void onStart() {
+        GoogleAnalytics.getInstance(this).reportActivityStart(this);
+        super.onStart();
+    }
+
+    @Override
+    protected void onStop() {
+        GoogleAnalytics.getInstance(this).reportActivityStop(this);
+        super.onStop();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
+        ((TTTv2Application) getApplication()).getTracker(TTTv2Application.TrackerName.APP_TRACKER);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 

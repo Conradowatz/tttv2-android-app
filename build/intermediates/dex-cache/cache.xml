@@ -37,6 +37,13 @@
         <dex dex="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/pre-dexed/debug/classes-84c6bfb3b75fd134e7e1a050fe6bc5e5d9fdec7a.jar" />
     </item>
     <item
+        jar="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="95482e7c792a7c0d5a9d5461e97726bd54fe9549">
+        <dex dex="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/pre-dexed/debug/classes-d92eac13abc9e3b3d0aba41baec315d28df919ce.jar" />
+    </item>
+    <item
         jar="/home/conrad/AndroidStudioProjects/TTTv2 2.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
         jumboMode="false"
         revision="21.1.2"

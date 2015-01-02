@@ -101,7 +101,7 @@ public class SearchableActivity extends ActionBarActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         TextView textViewNoResults = (TextView) findViewById(R.id.textView_profile_search_noresults);
-        String noResults = getString(R.string.text_profile_search_noresults).replace("%name%", searchedName);
+        String noResults = getString(R.string.text_profile_search_noresults).replace("%%name%%", searchedName);
         textViewNoResults.setText(noResults);
 
     }

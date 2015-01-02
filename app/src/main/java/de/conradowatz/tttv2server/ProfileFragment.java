@@ -28,6 +28,9 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -164,6 +167,16 @@ public class ProfileFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
+        // Get tracker.
+        Tracker t = ((TTTv2Application) getActivity().getApplication()).getTracker(
+                TTTv2Application.TrackerName.APP_TRACKER);
+
+        // Set screen name.
+        t.setScreenName("Eigenes Profil");
+        // Send a screen view.
+        t.send(new HitBuilders.AppViewBuilder().build());
+
         setHasOptionsMenu(true);
 
         super.onCreate(savedInstanceState);

@@ -17,6 +17,9 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 
+import com.google.android.gms.analytics.HitBuilders;
+import com.google.android.gms.analytics.Tracker;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -70,6 +73,16 @@ public class DeathmatchFragment extends Fragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+
+        // Get tracker.
+        Tracker t = ((TTTv2Application) getActivity().getApplication()).getTracker(
+                TTTv2Application.TrackerName.APP_TRACKER);
+
+        // Set screen name.
+        t.setScreenName("Deathmatch Rekorde");
+        // Send a screen view.
+        t.send(new HitBuilders.AppViewBuilder().build());
+
         setHasOptionsMenu(true);
 
         super.onCreate(savedInstanceState);
