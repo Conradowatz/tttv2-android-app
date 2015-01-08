@@ -8,8 +8,8 @@ android {
         applicationId "de.conradowatz.tttv2server"
         minSdkVersion 14
         targetSdkVersion 21
-        versionCode 10
-        versionName "2.0"
+        versionCode 11
+        versionName "2.0.1"
     }
     buildTypes {
         release {

@@ -25,6 +25,8 @@ public class TTTv2Application extends Application {
         if (!mTrackers.containsKey(trackerId)) {
 
             GoogleAnalytics analytics = GoogleAnalytics.getInstance(this);
+            analytics.setDryRun(false);
+            analytics.getLogger().setLogLevel(com.google.android.gms.analytics.Logger.LogLevel.INFO);
             Tracker t = (trackerId == TrackerName.APP_TRACKER) ? analytics.newTracker(R.xml.app_tracker)
                     : (trackerId == TrackerName.GLOBAL_TRACKER) ? analytics.newTracker(R.xml.global_tracker)
                     : analytics.newTracker(null);
